@@ -1,0 +1,11 @@
+.todo:hover {
+  cursor: pointer;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+.incomplete {
+  color: red;
+}
