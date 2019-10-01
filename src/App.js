@@ -57,11 +57,13 @@ class App extends React.Component {
   };
 
   render() {
+    console.log("APP THIS:", this);
     return (
       <div>
         <h2>Todo List:</h2>
         <TodoList todos={this.state.todos} toggleTodo={this.toggleTodo} />
         <TodoForm
+          todo={this.state.todo}
           addTodo={this.addTodo}
           handleChange={this.handleChange}
           clearCompleted={this.clearCompleted}

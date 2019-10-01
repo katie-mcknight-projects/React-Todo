@@ -10,6 +10,7 @@ class TodoList extends React.Component {
   }
 
   render() {
+    console.log("TODO LIST THIS:", this);
     return (
       <>
         {this.props.todos.map(todo => {
